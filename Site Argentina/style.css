@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Seção sobre o site index.html */
+
+.principal {
+    margin: 1rem 0 1rem 1rem;
+    background-color: rgb(117, 170, 219);
+    width: 21rem;
+    height: auto;
+    border-radius: 16px;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+.hub {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h {
+    background-color: white;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 8px;
+    
+}
+.links {
+    margin: 1rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.parte {
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.baixo {
+    display: flex;
+    width: 15rem;
+    margin: 0 0 0 2rem;
+    padding-bottom: 1rem;
+    border-radius: 16px 16px;
+}
+
+.topo {
+    display: none;
+}
+
+/* Seção sobre o sites Dias.html */
+
+section {
+    margin: 1rem 0 0 1rem;
+    background-color: white;
+    width: 19rem;
+    height: auto;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 20px;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+p {
+    margin-left: 1rem;
+    font-size: 12px;
+}
+
+/* Responsividade para telas grandes */
+@media (min-width: 768px) {
+    .principal {
+        background-color: rgb(117, 170, 219);
+        width: 73rem;
+        height: auto;
+        border-radius: 16px;
+        position: absolute;
+        padding-bottom: 1rem;
+    }
+    section {
+        position: relative;
+        margin: 1rem 0 0 1rem;
+        background-color: white;
+        width: 71rem;
+        height: auto;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    h1 {
+        text-align: left;
+    }
+    /* Imagem */
+    .topo {
+        width: 15rem;
+        margin: 0 0 0 2rem;
+        padding-bottom: 1rem;
+        border-radius: 16px 16px;
+        display: flex; 
+        float: right;
+        margin: 1rem 1rem 0 0;
+        }
+
+    .baixo {
+        display: none;
+    }
+    .hub {
+        text-align: center;
+    }
+}
+
+@media (min-width: 2300px) {
+    .principal {
+        background-color: rgb(117, 170, 219);
+        width: 152rem;
+        height: auto;
+        border-radius: 16px;
+        position: absolute;
+        padding-bottom: 1rem;
+    }
+    section {
+        position: relative;
+        margin: 1rem 0 0 1rem;
+        background-color: white;
+        width: 150rem;
+        height: auto;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .topo {
+        width: 35rem;
+        margin: 0 0 0 2rem;
+        padding-bottom: 1rem;
+        border-radius: 16px 16px;
+        display: flex; 
+        float: right;
+        margin: 1rem 1rem 0 0;
+        }
+    
+    .baixo {
+        display: none;
+    }
+    .hub {
+        text-align: center;
+    }
+
+}
